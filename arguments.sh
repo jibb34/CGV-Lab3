@@ -9,4 +9,6 @@
 #SBATCH --partition=COMP1680-dev
 
 gcc arguments.c -o arguments.out
+gcc arguments2.c -o arg2.out
 ./arguments.out 100
+./arg2.out 100

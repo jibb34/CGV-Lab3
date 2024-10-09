@@ -18,7 +18,7 @@ int main(int argc, char **argv) {
 
   for (i = 1; i < n; i++) {
     squares[i] = i * i;
-    // printf("%d %d\n", i, squares[i]);
+    printf("%d %d\n", i, squares[i]);
     sum += squares[i];
   }
   printf("The sum of %d squares is %d\n", n, sum);
