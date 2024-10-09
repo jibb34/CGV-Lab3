@@ -8,5 +8,6 @@
 #SBATCH --nodes=1
 #SBATCH --partition=COMP1680-dev
 
-gcc arguments.c -o arugments.out
+gcc arguments.c -o arguments.out
 ./arguments.out 2 3 3.141
+
