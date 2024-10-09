@@ -10,3 +10,9 @@ arg array is a space-separated version of your input command
 Report:
 
 arguments.c takes 3 input parameters, 2 int 1 float and prints back to console
+
+slurm script set up enviornment, and it just printed out the characters as expected.
+
+Part 2:
+
+

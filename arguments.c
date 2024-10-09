@@ -2,22 +2,16 @@
 #include <stdlib.h>
 
 int main(int argc, char **argv) {
-  int a;
-  int b;
-  float c;
+  int n;
+  int sum = 0;
+  n = atoi(argv[1]);
+  int squares[n]; // can this work?
 
-  // We use atoi() to read an integer command line argument
-  a = atoi(argv[1]);
-  b = atoi(argv[2]);
-
-  // We use atof() to read a float command line argument
-  c = atof(argv[3]);
-
-  printf("Hello world!\n");
-
-  printf("a= %d\n", a);
-  printf("b= %d\n", b);
-  printf("c= %f\n", c);
-
+  for (int i = 1; i < n; i++) {
+    squares[i] = i * i;
+    printf("%d %d\n", i, squares[i]);
+    sum += squares[i];
+  }
+  printf("The sum of %d squares is %d\n", n, sum);
   return 0;
 }
