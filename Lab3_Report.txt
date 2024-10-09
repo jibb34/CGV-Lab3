@@ -1,0 +1,12 @@
+Slurm:
+  Slurm is an open source application for managing clusters and scheduling jobs
+
+  Helps manage a cluster and the workloads that are running on it
+
+CLI:
+Arg[0] is always the path to the program
+arg array is a space-separated version of your input command
+
+Report:
+
+arguments.c takes 3 input parameters, 2 int 1 float and prints back to console
